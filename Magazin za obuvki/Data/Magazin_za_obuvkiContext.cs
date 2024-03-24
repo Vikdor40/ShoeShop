@@ -15,5 +15,6 @@ namespace Magazin_za_obuvki.Data
         }
 
         public DbSet<Magazin_za_obuvki.Models.Client> Client { get; set; } = default!;
+        public DbSet<Magazin_za_obuvki.Models.Shoe> Shoe { get; set; } = default!;
     }
 }
